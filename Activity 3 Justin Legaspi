@@ -1,0 +1,23 @@
+// LEGASPI,JUSTIN M.
+// BSIT -2J
+// ACTIVITY 3
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int hours, minutes, totalMinutes;
+
+    cout << "Input hours: ";
+    cin >> hours;
+
+    cout << "Input minutes: ";
+    cin >> minutes;
+
+    
+    totalMinutes = (hours * 60) + minutes;
+
+    cout << "Total: " << totalMinutes << " minutes" << endl;
+
+    return 0;
+}
